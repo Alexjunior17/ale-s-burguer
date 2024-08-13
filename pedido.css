@@ -23,7 +23,7 @@
     grid-template-columns: 0.2fr 0.5fr 1fr 0.4fr;
     grid-template-rows: 120px 70px 50px 70px 50px 70px 50px 50px 60px;
 }
-#titulocadastro{
+#titulopedido{
     grid-column: 2/4;
     font-size: 60px;
     font-family: "Inter";
