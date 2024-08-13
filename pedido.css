@@ -1,0 +1,101 @@
+#header {
+    background-color: #FFB800;
+    height: 192px;
+    background-image: url(Group\ 1.png);
+    background-repeat: no-repeat;
+
+}
+
+
+
+#svgbars img {
+    fill: white;
+    padding-left: 96%;
+
+
+}
+
+#segparte2{
+    background-image: url(Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr 1fr 0.4fr;
+    grid-template-rows: 120px 70px 50px 70px 50px 70px 50px 50px 60px;
+}
+#titulocadastro{
+    grid-column: 2/4;
+    font-size: 60px;
+    font-family: "Inter";
+    color: #FF5C00;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 2%;
+}
+#inputnome{
+    grid-column: 3;
+    grid-row: 3;
+
+}
+#inputnome textarea{
+width: 80%;
+height: 100%;
+resize: none;
+
+}
+#inputemail{
+    grid-column: 3;
+    grid-row: 5;
+
+}
+#inputemail textarea{
+width: 80%;
+height: 100%;
+resize: none;
+
+}
+#inputnumero{
+    grid-column: 3;
+    grid-row: 7;
+
+}
+#inputnumero textarea{
+width: 80%;
+height: 100%;
+resize: none;
+
+}
+#enviar{
+    grid-column: 3;
+    grid-row: 9;
+    width: 60%;
+    margin-left: 10%;
+    color: black;
+    font-weight: 900;
+    font-size: 32px;
+}
+#txt01{
+    grid-column: 2;
+    grid-row: 3;
+    font-family: "Inter";
+    font-size: 20;
+    font-weight: 700;
+    color:white;
+}
+#txt02{
+    grid-column: 2;
+    grid-row: 5;
+    font-family: "Inter";
+    font-size: 20;
+    font-weight: 700;
+    color:white;
+}
+#txt03{
+    grid-column: 2;
+    grid-row: 7;
+    font-family: "Inter";
+    font-size: 20;
+    font-weight: 700;
+    color:white;
+}
